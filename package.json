@@ -1,0 +1,37 @@
+{
+  "name": "express-dummy-image",
+  "version": "1.0.0",
+  "description": "middleware for Express to serve dummy image",
+  "main": "node/index",
+  "scripts": {
+    "pretest": "$(npm bin)/eslint lib/index.js"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "babel": "^5.1.10",
+    "babel-eslint": "^3.0.1",
+    "eslint": "^0.19.0",
+    "express": "^4.12.3",
+    "morgan": "^1.5.2"
+  },
+  "dependencies": {
+    "gm": "^1.17.0"
+  },
+  "author": {
+    "name": "tgfjt",
+    "email": "tgfjt.mail@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tgfjt/express-dummy-image"
+  },
+  "bugs": {
+    "url": "https://github.com/tgfjt/express-dummy-image/issues"
+  },
+  "keywords": [
+    "dummy",
+    "demo",
+    "image",
+    "express"
+  ]
+}
