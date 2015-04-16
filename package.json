@@ -4,7 +4,8 @@
   "description": "middleware for Express to serve dummy image",
   "main": "node/index",
   "scripts": {
-    "pretest": "$(npm bin)/eslint lib/index.js"
+    "pretest": "$(npm bin)/eslint lib/index.js",
+    "build": "$(npm bin)/babel lib/index.js > node/index.js"
   },
   "license": "MIT",
   "devDependencies": {
