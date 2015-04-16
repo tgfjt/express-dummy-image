@@ -2,6 +2,7 @@
 
 middleware for Express to serve dummy image
 
+[![NPM](https://nodei.co/npm/express-dummy-image.png)](https://nodei.co/npm/express-dummy-image/)
 
 ## Requirement
 
