@@ -3,11 +3,9 @@
 middleware for Express to serve dummy image
 
 
-
 ## Requirement
 
-* ImageMagick
-
+* [ImageMagick](http://www.imagemagick.org/)
 
 ## Usage
 
@@ -22,12 +20,16 @@ app.use('/images', dummy())
 app.listen(3000)
 ```
 
+get:
+
+* `http://localhost:3000/images/?w=70&h=70`
+* `http://localhost:3000/images/?w=400&h=300`
+
 see also example directory.
 
 ## Install
 
 `npm install express-dummy-image`
-
 
 ## License
 
